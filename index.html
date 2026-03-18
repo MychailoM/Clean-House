@@ -1,25 +1,395 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Чиста Оселя — Клінінгові послуги у Львові та області</title>
-<meta name="description" content="Професійне прибирання квартир, будинків та офісів у Львові. Еко-засоби, гарантія якості, доступні ціни. Замовте клінінг вже сьогодні!">
-<meta name="keywords" content="клінінг Львів, чистка дому, клінінгова компанія, Чиста Оселя, еко прибирання, прибирання офісу">
-<!-- Open Graph для соцмереж -->
-<meta property="og:title" content="Чиста Оселя — Клінінгові послуги у Львові">
-<meta property="og:description" content="Замовте професійне прибирання з гарантією якості. Еко-засоби, швидко та надійно.">
-<meta property="og:image" content="https://ваш_сайт/logo.png">
-<meta property="og:url" content="https://ваш_сайт">
-<meta property="og:type" content="website">
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Чиста Оселя — Клінінгові послуги у Львові та області</title>
+    <meta
+      name="description"
+      content="Професійне прибирання квартир, будинків та офісів у Львові. Еко-засоби, гарантія якості, доступні ціни. Замовте клінінг вже сьогодні!"
+    />
+    <meta
+      name="keywords"
+      content="клінінг Львів, чистка дому, клінінгова компанія, Чиста Оселя, еко прибирання, прибирання офісу"
+    />
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Чиста Оселя — Клінінгові послуги у Львові">
-<meta name="twitter:description" content="Професійне прибирання квартир, будинків та офісів. Еко-засоби, доступні ціни.">
-<meta name="twitter:image" content="https://ваш_сайт/logo.png">
-</head>
-<body>
-    
-</body>
+    <meta
+      property="og:title"
+      content="Чиста Оселя — Клінінгові послуги у Львові"
+    />
+    <meta
+      property="og:description"
+      content="Замовте професійне прибирання з гарантією якості. Еко-засоби, швидко та надійно."
+    />
+    <meta
+      property="og:image"
+      content="https://mychailom.github.io/Clean-House/images/logo.png"
+    />
+    <meta
+      property="og:url"
+      content="https://mychailom.github.io/Clean-House/"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Чиста Оселя — Клінінгові послуги у Львові"
+    />
+    <meta
+      name="twitter:description"
+      content="Професійне прибирання квартир, будинків та офісів. Еко-засоби, доступні ціни."
+    />
+    <meta
+      name="twitter:image"
+      content="https://mychailom.github.io/Clean-House/images/logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./images/favicon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="top-header-information">
+          <div class="header-info-geo">
+            <a
+              href="https://maps.app.goo.gl/t5vKCsak6rGYng5c8"
+              target="_blank"
+              class="header-geo"
+            >
+              м.Львів вул.---, 36
+            </a>
+          </div>
+          <div class="header-info-social">
+            <ul class="header-social-list">
+              <li class="header-social-items">
+                <a href="#" class="header-social-link"
+                  ><img
+                    class="header-social-icon"
+                    src="./icons/facebook.svg"
+                    alt="facebook"
+                /></a>
+              </li>
+              <li class="header-social-items">
+                <a href="#" class="header-social-link"
+                  ><img
+                    class="header-social-icon"
+                    src="./icons/tiktok.svg"
+                    alt="tiktok"
+                /></a>
+              </li>
+              <li class="header-social-items">
+                <a href="#" class="header-social-link"
+                  ><img
+                    class="header-social-icon"
+                    src="./icons/instagram.svg"
+                    alt="instagram"
+                /></a>
+              </li>
+            </ul>
+            <div class="lang-selector">
+              <button type="button" class="lang-selector-btn">
+                Українська
+                <div class="lang-selector-btn-arrow"></div>
+              </button>
+
+              <div class="lang-selector-content">
+                <a class="lang-selector-link lang-selected" href="./index.html"
+                  >Українська</a
+                >
+                <a class="lang-selector-link" href="./eng-page.html"
+                  >Англійська</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="midle-header">
+          <div class="header-logo-wrap">
+            <a href="index.html" class="header-logo-link">
+              <img class="header-logo" src="./images/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="header-contact-wrap">
+            <div class="header-tell-wrap">
+              Наш телефон:
+              <br />
+              <a href="tel:+380888888888" class="header-tell">+380-888-88-88</a>
+            </div>
+            <div class="header-work-time-wrap">
+              Графік роботи:
+              <br />
+              <span class="header-workTime"
+                >9:00-20:00 <br />
+                з пн по сб</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="header-nav-wrap">
+          <button class="header-nav-btn" type="button">
+            <div class="button-nav-line"></div>
+            <div class="button-nav-line"></div>
+            <div class="button-nav-line"></div>
+          </button>
+          <ul class="header-nav">
+            <li class="header-nav-item">
+              <a href="#" class="header-nav-link"> Про нас </a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#" class="header-nav-link"> Послуги </a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#" class="header-nav-link"> Персонал </a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#" class="header-nav-link"> Контакти </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="main-title-wrap">
+            <h1 class="main-title">
+              Клінінгова компанія "Чиста Оселя" <br />
+              <span class="main-subtitle">Запорука чистоти вашого будинку</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about-container container">
+          <h2 class="about-title">Про нас</h2>
+          <p class="about-text">
+            Ми — професійна клінінгова компанія, яка спеціалізується на
+            комплексному прибиранні квартир, будинків та комерційних приміщень.
+            Наші співробітники проходять регулярне навчання та працюють лише з
+            сертифікованими засобами, щоб гарантувати безпеку та якість.
+          </p>
+          <p class="about-text">
+            Ми цінуємо ваш час і комфорт, тому пропонуємо прозорі умови
+            співпраці, сучасне обладнання та відповідальний підхід до кожного
+            замовлення. Наша мета — зробити ваш простір чистим, затишним і
+            безпечним.
+          </p>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="accordion">
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Генеральне прибирання квартир і котеджів
+              </button>
+              <div class="accordion-content">
+                Довірте поточне прибирання Вашої квартири чи приватного будинку
+                нашим професійним співробітникам
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">Миття вікон та вітрин</button>
+              <div class="accordion-content">
+                Ми помиємо вікна, вітрини чи скляні фасади у найважкодоступніших
+                місцях.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">Після ремонту</button>
+              <div class="accordion-content">
+                Ми вивеземо будівельне сміття, помиємо підлогу, почистимо меблі,
+                зробимо ваш дім чистим і без пилу.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">Професійна хімчистка</button>
+              <div class="accordion-content">
+                Вам потрібна ретельна хімчистка меблів, стільців, килимів,
+                ковроліну, матраців? Готові допомогти
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">Прибирання офісів і ТЦ</button>
+              <div class="accordion-content">
+                Ми будемо підтримувати ваш офіс в чистоті за узгодженим
+                графіком. Можливе одноразове прибирання.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Контрактне прибирання комерційних приміщень
+              </button>
+              <div class="accordion-content">
+                Послуги з прибирання великих комерційних приміщень, складів та
+                ін. за підписаним контрактом
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Прибирання після НС (пожежа)
+              </button>
+              <div class="accordion-content">
+                Проведемо комплекс процедур, спрямований на повноцінне усунення
+                наслідків НС чи пожежі.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Видалення плісняви і запаху (дезинфекція приміщення)
+              </button>
+              <div class="accordion-content">
+                Ліквідуємо неприємні запахи, плісняву та інше найсучаснішими
+                засобами.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">Промисловий альпінізм</button>
+              <div class="accordion-content">
+                Будь-яке висотне прибирання чи миття. У нас працюють
+                професіонали своєї справи
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="container">
+          <h2 class="advantages-title">Наші переваги</h2>
+          <div class="advantages-grid">
+            <div class="advantage-item advantage-staff">
+              <h3 class="advantage-title">Професійний персонал</h3>
+              <p class="advantage-text">
+                Наші співробітники проходять навчання та працюють лише з
+                сертифікованими засобами.
+              </p>
+            </div>
+            <div class="advantage-item advantage-equipment">
+              <h3 class="advantage-title">Сучасне обладнання</h3>
+              <p class="advantage-text">
+                Використовуємо техніку та хімію останнього покоління для
+                максимальної ефективності.
+              </p>
+            </div>
+            <div class="advantage-item advantage-schedule">
+              <h3 class="advantage-title">Графік роботи</h3>
+              <p class="advantage-text">
+                Ми працюємо з понеділка по суботу, щоб забезпечити регулярне та
+                якісне прибирання.
+              </p>
+            </div>
+            <div class="advantage-item advantage-quality">
+              <h3 class="advantage-title">Гарантія якості</h3>
+              <p class="advantage-text">
+                Ми відповідаємо за результат: якщо щось не так — виправимо
+                безкоштовно.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="staff">
+        <div class="container">
+          <h2 class="staff-title">Наш персонал</h2>
+          <div class="staff-grid">
+            <div class="staff-item">
+              <div class="staff-photo">
+                <img
+                  src="images/photo_2026-03-18_17-49-15.jpg"
+                  alt="Менеджер компанії"
+                />
+              </div>
+              <h3 class="staff-name">Іван</h3>
+              <p class="staff-role">Менеджер</p>
+            </div>
+
+            <div class="staff-item">
+              <div class="staff-photo">
+                <img
+                  src="images/6af04d9d294928a223ee5b41e727bfe8.jpg"
+                  alt="Клінінг-спеціаліст"
+                />
+              </div>
+              <h3 class="staff-name">Оля</h3>
+              <p class="staff-role">Клінінг-спеціаліст</p>
+            </div>
+
+            <div class="staff-item">
+              <div class="staff-photo">
+                <img
+                  src="images/photo_2026-03-18_17-49-15.jpg"
+                  alt="Хімчистка-експерт"
+                />
+              </div>
+              <h3 class="staff-name">Тарас</h3>
+              <p class="staff-role">Експерт з хімчистки</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164705.66805002707!2d23.847429224627614!3d49.83257221931054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1773849372542!5m2!1suk!2sua"
+          width="100%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      
+    </main>
+
+    <div class="mobile-menu">
+      <button class="close-mobile-menu" type="button">X</button>
+      <ul class="mobile-nav">
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link"> Про нас </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link"> Послуги </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link"> Персонал </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link"> Контакти </a>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
